@@ -27,11 +27,9 @@ cd fusion-dashboard
 
 2. **Install dependencies:**
 
-   * Using npm:
-
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 3. **Add your assets:**
 
@@ -39,11 +37,9 @@ Place the user's image (rameshPic.jpg) in the `src` folder.
 
 4. **Run the development server:**
 
-   * Using npm:
-
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+```
 
 The development server will automatically open the app in your default web browser. If it doesn't, navigate to http://localhost:3000 in your browser.
 
