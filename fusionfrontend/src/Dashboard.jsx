@@ -1,5 +1,5 @@
 import { useState } from "react";
-import rameshPic from "./rameshPic.jpg";
+import Userimage from "./Userimage.png";
 
 const modules = [
   { name: "Academics", icon: "🎓" },
@@ -19,14 +19,14 @@ const notifications = [
   {
     id: 1,
     module: "Hostel Management Module",
-    message: "Hostel room allocation forms are released - by RAMESH BABU",
+    message: "Hostel room allocation forms are released - by Admin",
     date: "2 days ago",
   },
   {
     id: 2,
     module: "Gymkhana Module",
     message:
-      "A session by BitByte Club will be organised in CR101 - by RAMESH BABU",
+      "A session by BitByte Club will be organised in CR101 - by Admin",
     date: "1 week ago",
   },
   {
@@ -149,7 +149,7 @@ export default function Dashboard() {
             <div className="flex flex-col items-center">
               <img
                 className="h-12 w-12 rounded-full object-cover mb-4"
-                src={rameshPic}
+                src={Userimage}
                 alt="User avatar"
               />
               <h2 className="text-xl font-semibold text-gray-900 text-center">
